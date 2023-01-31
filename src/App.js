@@ -5,17 +5,22 @@ import About from './pages/about/About';
 import Contact from './pages/contact/Contact';
 import Home from './pages/home/Home';
 import NotFound from './pages/notfound/NotFound';
+import Navbar from './components/Navbar/Navbar';
+import { BrowserRouter} from 'react-router-dom';
 
 function App() {
   return (
-    <Routes>
-          <Route path="/" element={<Home />}>
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="*" element={<NotFound />} />
-        </Route>
-    </Routes>
+    <BrowserRouter>
+      <Navbar/>
+      <Routes>
+            <Route index element={<Home />}/>
+            <Route path="about" element={<About />} />
+            <Route path="contact" element={<Contact />} />
+            <Route path="services" element={<Services />} />
+            <Route path="*" element={<NotFound />} />
+      </Routes>
+    </BrowserRouter>
+    
   );
 }
 

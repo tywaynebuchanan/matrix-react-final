@@ -1,0 +1,62 @@
+
+.mainHeader{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    margin-top: 3rem;
+}
+
+.mainHeaderContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6rem;
+}
+
+
+
+.mainHeaderLeft{
+  margin-top: -10rem;
+}
+
+.mainHeaderLeft h4{
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+.mainHeaderLeft p{
+    margin: 1rem 0 2rem 0;
+}
+.btn {
+    outline: none;
+    background-color: var(--c-secondary);
+    padding: 0.9rem 2rem;
+    width: fit-content;
+    max-width: 10%;
+    border: none;
+    cursor: pointer;
+    transition: var(--transition);
+    margin: 0 auto;
+    border-radius: 1.5rem;
+}
+
+.btn.lg{
+    padding: 1.2rem 3rem;
+    border-radius: 2rem;
+    font-size: 1.1rem;
+}
+
+.btn:hover{
+    color: white;
+    background-color: var(--blue-color);
+}
+
+
+.headerImg{
+    width: 100%;
+    object-fit: cover;
+    max-width: 500px;
+}

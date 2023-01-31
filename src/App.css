@@ -37,11 +37,12 @@
 /*General Styles*/
 
 body{
-  font-family: 'Montserrat', sans-serif;
+ 
   color: var(--color-gray-200);
   line-height: 1.7;
   overflow-x: hidden;
-  background:var(--blue-color);
+  /* background:var(--blue-color); */
+  scroll-behavior: smooth;
 
 }
 
@@ -53,7 +54,8 @@ body{
 
 h1,h2,h3,h4,h5{
   line-height: 1.2;
-  color: var(--color-gray-100);
+  color: var(--blue-color);
+  font-family: "Fira Sans", sans-serif;
 }
 
 h1{
@@ -64,6 +66,14 @@ h2{
   font-size: var(--is-2);
 }
 
+a{
+  font-family: 'Fira Sans', sans-serif;
+}
+
+p{
+  color: var(--blue-color);
+  font-family: 'Montserrat', sans-serif;
+}
 
 /* img {
   display: block;

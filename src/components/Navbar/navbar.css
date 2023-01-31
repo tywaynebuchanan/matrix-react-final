@@ -8,6 +8,7 @@ nav{
   top: 0;
   left: 0;
   z-index: 99;
+  /* box-shadow: 0 2px 4px -1px rgba(0,0,0,0.2); */
 }
 
 .logo{
@@ -25,6 +26,7 @@ nav{
     justify-content: space-between;
     align-items:center;
     position: relative;
+   
 }
 
 a{
@@ -46,6 +48,7 @@ a{
 
 .navLinks a:hover{
    color:var(--color-hover);
+   border-bottom: 2px solid var(--c-secondary);
 }
 
 .active-nav{
@@ -53,17 +56,17 @@ a{
    
 }
 
-.active-nav::after  {
+/* .active-nav::after  {
     content:"";
     display: block;
     width: 2rem;
     height: 2rem;
-    background: white;
+    background: #fefefe;
     position: absolute;
     left: calc(50% - 0.6rem);
     transform: rotate(45deg);
     margin-top: 0.9rem;
-}
+} */
 
 @media screen and (max-width:1024px){
     .navToggleBtn{
