@@ -13,6 +13,8 @@ nav{
 
 .logo{
     width: 6rem;
+    margin-top: auto;
+    display: block;
 }
 
 .navToggleBtn{
@@ -84,7 +86,7 @@ a{
     .navLinks{
         position: absolute;
         top: 110%;
-        right: -10%;
+        right: -5%;
         flex-direction: column;
         gap: 0;
         
@@ -100,12 +102,13 @@ a{
     }
 
     .navLinks li a {
-        background-color: white;
+        background-color: var(--blue-color);
         height: 100%;
         width: 100%;
         padding: 1rem 5rem 1rem 3rem;
         display: flex;
         align-items: center;
+        color:var(--color-white);
 
     }
 

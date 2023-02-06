@@ -1,0 +1,40 @@
+.servicesWrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+/* .services_Service {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.services_Service a:hover{
+    color:var(--blue-color);
+    background-color: white;
+}
+
+@media screen and (max-width: 1024px) {
+    .servicesWrapper{
+        grid-template-columns: 1fr 1fr;
+       }
+}
+@media screen and (max-width:600px){
+
+    .servicesWrapper{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .services_Service{
+        width: 84%;
+        margin: 0 auto;
+    }
+
+
+
+
+}

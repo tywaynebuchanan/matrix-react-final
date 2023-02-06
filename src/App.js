@@ -7,6 +7,7 @@ import Home from './pages/home/Home';
 import NotFound from './pages/notfound/NotFound';
 import Navbar from './components/Navbar/Navbar';
 import { BrowserRouter} from 'react-router-dom';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path="services" element={<Services />} />
             <Route path="*" element={<NotFound />} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
     
   );
