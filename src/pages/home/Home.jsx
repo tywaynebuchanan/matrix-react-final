@@ -1,7 +1,9 @@
 import React from 'react'
-import Footer from '../../components/Footer/Footer'
+import CTA from '../../components/CallToAction/CTA'
 import Header from '../../components/Header/Header'
 import Services from '../../components/OtherServices/Services'
+import Testimonial from '../../components/Testimonial/Testimonial'
+import Products from '../../components/Products/Products'
 import "./home.css"
 
 const Home = () => {
@@ -9,6 +11,8 @@ const Home = () => {
     <>
        <Header/>
       <Services/>
+      <Testimonial/>
+      <CTA />
     </>
  
   )

@@ -1,0 +1,66 @@
+.testimonials{
+    margin-top: 7rem;
+    background-color: #ffefd5;
+    padding: 6rem 0rem;
+    background: hsla(37, 100%, 96%, 1);
+    background: linear-gradient(270deg, hsla(37, 100%, 96%, 1) 0%, hsla(37, 100%, 92%, 1) 100%);
+    background: -moz-linear-gradient(270deg, hsla(37, 100%, 96%, 1) 0%, hsla(37, 100%, 92%, 1) 100%);
+    background: -webkit-linear-gradient(270deg, hsla(37, 100%, 96%, 1) 0%, hsla(37, 100%, 92%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFF7EA", endColorstr="#FFEFD5", GradientType=1 );
+    box-shadow:  -10px 10px 30px #bebebe,
+             10px -10px 30px #ffffff;
+}
+
+.avatarName{
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.avatarName span{
+    font-style: italic;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.testimonialContainer{
+    width: 50%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.testimonialContainer h2{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.testimonialContainer p{
+    text-align: center;
+}
+
+.testimonials .slick-arrow.slick-prev,
+.testimonials .slick-arrow.slick-next{
+    /* background: var(--blue-color); */
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    border-radius: 50%;
+    font-size: 20rem;
+}
+
+.slick-next::before,.slick-prev::before{
+    display: none;
+}
+
+
+@media screen and (max-width:600px) {
+    
+    .testimonialContainer{
+        width: 80%;
+        margin: 0 auto;
+        align-items: center;
+    }
+}

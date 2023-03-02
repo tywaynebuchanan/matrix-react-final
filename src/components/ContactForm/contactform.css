@@ -1,0 +1,184 @@
+.contact-section{
+    padding: 6rem 0;
+    }
+.contact-box{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+        justify-content: center;
+        align-items: flex-start;
+        background-color: var(--blue-color);
+        /* border-radius: 10px; */
+        border-radius: 10px;
+        /* background: #e0e0e0; */
+        box-shadow:  -20px 20px 60px #bebebe,
+                     20px -20px 60px #ffffff;;
+        background: hsla(212, 79%, 28%, 1);
+        background: linear-gradient(270deg, hsla(212, 79%, 28%, 1) 0%, hsla(212, 80%, 42%, 1) 100%, hsla(216, 56%, 16%, 1) 100%);     
+        background: -moz-linear-gradient(270deg, hsla(212, 79%, 28%, 1) 0%, hsla(212, 80%, 42%, 1) 100%, hsla(216, 56%, 16%, 1) 100%);
+        background: -webkit-linear-gradient(270deg, hsla(212, 79%, 28%, 1) 0%, hsla(212, 80%, 42%, 1) 100%, hsla(216, 56%, 16%, 1) 100%);
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0F4480", endColorstr="#1565C1", GradientType=1 );
+    }
+    
+    .form-box{
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start; 
+      /* width: 400px; */
+    
+    }
+    
+    .form-box form{
+      padding: 0;
+    }
+    
+    .form-box .title{
+        color: white;
+        margin-bottom: 1rem;
+    }
+    
+    
+    .form-box .form-input-group input{
+      width: 100%;
+      border: none;
+      outline: none;
+      border-radius: 5px;
+      padding: 0.75rem 1rem;
+      margin: 5px 0px;
+      background-color: white;
+    }
+    
+    .form-input-group label{
+      color: white;
+    
+    }
+
+    .send-message-button{
+        margin-top: 2rem;
+    }
+  
+    
+    .form-box .form-input-group textarea{
+       width: 100%;
+      border: none;
+      outline: none;
+      border-radius: 5px;
+      padding: 0.75rem 1rem;
+      margin: 5px 0px;
+      resize: none;
+      background-color: white;
+      color: var(--light);
+    }
+    
+
+    
+    .contact-box-info{
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        row-gap: 10px;
+    }
+    
+    
+    .contact-box-info .title{
+        color: white;
+        margin-bottom: 0;
+    }
+    
+    .contact-box-info .contact__info{
+      color: white;
+      margin-top: 0;
+    }
+
+     
+    .contact-box-info .contact__info a{
+        color: white;
+        margin-top: 0;
+      }
+    
+    .contact__info span{
+      font-size: 1.2rem;
+      font-weight: 500;
+      text-decoration: underline;
+    }
+    
+    .register{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+    }
+
+    .title{
+      font-weight: 400;
+    }
+
+    .MapImage{
+      width: 100%;
+      max-width: 1200px;
+      border: 1px solid var(--blue-color);
+      box-shadow:  -20px 20px 60px #bebebe,
+                     20px -20px 60px #ffffff;;
+        background: hsla(212, 79%, 28%, 1);
+        background: linear-gradient(270deg, hsla(212, 79%, 28%, 1) 0%, hsla(212, 80%, 42%, 1) 100%, hsla(216, 56%, 16%, 1) 100%);     
+        background: -moz-linear-gradient(270deg, hsla(212, 79%, 28%, 1) 0%, hsla(212, 80%, 42%, 1) 100%, hsla(216, 56%, 16%, 1) 100%);
+        background: -webkit-linear-gradient(270deg, hsla(212, 79%, 28%, 1) 0%, hsla(212, 80%, 42%, 1) 100%, hsla(216, 56%, 16%, 1) 100%);
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0F4480", endColorstr="#1565C1", GradientType=1 );
+        border-radius: 10px;
+    }
+    
+
+    @media  screen and (max-width:600px) {
+        /*Sign up Form*/
+  
+        .sign-up-box{
+          padding: 1rem;
+          width: 100%;
+      }
+      .sign-up-box .title{
+          font-size: 1.75rem;
+          text-align: center;
+          margin-bottom: 10px;
+      }
+  
+      .sign-up__form{
+          width: 100%;
+      }
+  
+      .sign-up__form .form-input-group{
+          display: grid;
+          grid-template-columns: 1fr;
+          width: 100%;
+      }
+  
+      .sign-up__form .form-input-group input{
+          width: 100%;
+      }
+  
+      .sign-up__form button{
+          width: 100%;
+          
+      }
+  
+      .sign-up__form .button-3{
+          padding: 1rem;
+          margin-bottom: 10px;
+      }
+  
+      /* Contact Section */
+  
+      .contact-section{
+          padding: 2rem 0;
+      }
+      .contact-box{
+          display: flex;
+          flex-direction: column;
+      }
+
+      section{
+        margin-top: 4rem;
+      }
+  }

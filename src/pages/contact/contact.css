@@ -1,0 +1,23 @@
+.contactContainer{
+    display: grid;
+    place-items: center;
+}
+
+.contactWrapper{
+    width: fit-content;
+    display: flex;
+    gap: 2rem;
+}
+
+.contactWrapper a {
+    background: var(--c-secondary);
+    border: 2px solid transparent;
+    color: var(--blue-color);
+    transition: var(--transition);
+    padding: 1rem;
+    font-size: 2rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+

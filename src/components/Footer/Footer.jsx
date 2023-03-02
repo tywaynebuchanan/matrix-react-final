@@ -54,6 +54,7 @@ const Footer = () => {
                 provident pariatur omnis sed inventore 
                 minima porro nihil corrupti tempora iure accusamus 
                 ex tempore corporis?</p>
+                <p>Follow us on: </p>
                 <div className="footerSocials">
                    {social.map(({icon,name,path,id})=>(
                         <a href={path} key = {id} target ="_blank" rel='noreferrer noopener'>{icon}</a>

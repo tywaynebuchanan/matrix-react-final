@@ -1,0 +1,107 @@
+.aboutSection-image{
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.aboutSection-content h1{
+    margin-bottom: 2rem;
+}
+
+.aboutSection-content p{
+    margin-bottom: 1rem;
+}
+
+.aboutSection-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aboutStoryContainer{
+    margin-top: 6rem;
+    display: grid;
+    grid-template-columns: 50% 40%;
+    gap: 10%;
+
+}
+
+
+.aboutVisionContainer{
+    margin-top: 6rem;
+    display: grid;
+    grid-template-columns: 50% 40%;
+    gap: 10%;
+
+}
+
+.aboutMissionContainer{
+    margin-top: 6rem;
+    display: grid;
+    grid-template-columns: 40% 50%;
+    gap: 10%;
+}
+
+.aboutStoryContainer img{
+    border-radius: 20px;
+    background: #e0e0e0;
+    box-shadow:  -20px 20px 60px #bebebe,
+                 20px -20px 60px #ffffff;
+
+}
+
+.aboutVisionContainer img{
+    border-radius: 20px;
+    background: #e0e0e0;
+    box-shadow:  -20px 20px 60px #bebebe,
+                 20px -20px 60px #ffffff;
+}
+
+.aboutMissionContainer img{
+    border-radius: 20px;
+    background: #e0e0e0;
+    box-shadow:  -20px 20px 60px #bebebe,
+                 20px -20px 60px #ffffff;
+}
+
+@media screen and (max-width:1024px){
+
+.aboutSection-image{
+    width: 60%;
+}
+
+.aboutSection-content h1{
+    margin-bottom: 1.2rem;
+}
+
+.aboutStoryContainer,.aboutMissionContainer,.aboutVisionContainer{
+    grid-template-columns: 1fr;
+    gap: 3rem;
+
+}
+
+.aboutVision .aboutSection-image{
+    grid-row: 1;
+}
+
+    
+}
+
+@media screen and (max-width:600px){
+
+    .aboutSection-image{
+        width: 80%;
+    }
+    
+
+    .aboutStoryContainer,.aboutMissionContainer,.aboutVisionContainer{
+        gap: 2rem;
+    
+    }
+    
+    .aboutVision .aboutSection-image{
+        grid-row: 1;
+    }
+    
+        
+    }

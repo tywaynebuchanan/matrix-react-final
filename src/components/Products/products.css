@@ -1,0 +1,24 @@
+.products{
+    margin-top: 3rem;
+}
+
+.productCards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    place-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.ctabtn{
+    display: flex;
+    margin: 0 auto;
+}
+
+.product-card-image img{
+    width: 100%;
+    max-width: 200px;
+    /* border-radius: 50%; */
+    margin-top: 20px;
+}
+
